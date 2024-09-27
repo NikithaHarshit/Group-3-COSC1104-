@@ -2,14 +2,13 @@
 # Group member name: Harshit Sonik (100941462)
 # Group member name: Nikitha Donthi (100953192)
 # Date: 27-09-2024
-# Description: A simple script to simulate cloud resource provisioning.
-
+# Description: Based on user input and available resources, this script simulates the provisioning of cloud resources.
 
 # constants:
 TOTAL_CPUCORES = 20 
 TOTAL_MEMORYGB = 128.0
 
-# Function to validate input
+# validate input (BONUS):
 def get_valid_input(prompt, value_type):
     while True:
         try:
@@ -21,7 +20,7 @@ def get_valid_input(prompt, value_type):
         except ValueError:
             print("Error: Invalid input. Please enter a valid number.")
 
-# Get user input with validation
+# Get user inputs:
 required_cpucores = get_valid_input("How many CPU cores do you need? ", int)
 required_memorygb = get_valid_input("How much memory (in GB) do you need? ", float)
 
