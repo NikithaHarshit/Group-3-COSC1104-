@@ -2,7 +2,7 @@
 # Group member name: Harshit Sonik (100941462)
 # Group member name: Nikitha Donthi (100953192)
 # Date: 27-09-2024
-# Description: This script simulates cloud resource provisioning using a loop and manages multiple requests.
+# Description: The code below handles many requests and replicates cloud resource provisioning in a loop.
 
 # constants:
 Total_CPU_Cores = 20 
@@ -16,8 +16,8 @@ remaining_memorygb = Total_Memory_GB
 allocated_resources = list()
 pending_requests = list()
 
-# Continuously accept user requests
-is_continuing = "yes"  # Variable to control the loop
+# Continuously accept user requests:
+is_continuing = "yes"  
 
 while is_continuing.lower() == "yes":
     # user resource details
@@ -36,7 +36,7 @@ while is_continuing.lower() == "yes":
     # user wants to make another request
     is_continuing = input("Do you want to make another request? (yes/no): ")
 
-# After loop ends, display the results
+# After loop ends, show the results
 print("\nAllocated Resources:")
 for resource in allocated_resources:
     print(f"User: {resource[0]}, CPU cores: {resource[1]}, Memory (GB): {resource[2]}")
