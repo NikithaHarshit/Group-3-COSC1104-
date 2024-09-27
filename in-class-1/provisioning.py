@@ -1,5 +1,6 @@
 # provisioning.py
-# Group Members: Nikitha Donthi, Harshit Sonik
+# Group member name: Harshit Sonik (100941462)
+# Group member name: Nikitha Donthi (100953192)
 # Date: 27-09-2024
 # Description: A simple script to simulate cloud resource provisioning.
 
