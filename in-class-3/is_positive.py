@@ -1,7 +1,7 @@
 def is_positive(number):
-    """
-    Returns True if the number is positive, otherwise False.
-    """
+
+    # Returns True if the number is positive, otherwise False.
+
     if number > 0:
         print(f"{number} is positive.")
         return True
