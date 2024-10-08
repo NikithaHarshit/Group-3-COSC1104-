@@ -1,7 +1,7 @@
 def is_power_of_two(number):
-    """
-    Returns True if the number is a power of 2, otherwise False.
-    """
+   
+    # Returns True if the number is a power of 2, otherwise False.
+    
     if number < 1:
         return False
     return (number & (number - 1)) == 0
